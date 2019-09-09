@@ -9,9 +9,8 @@
 import Foundation
 
 struct InputView{
-    
     // 참여할 플레이어 이름을 입력받음
-    func inputJoinPlayersName() -> String{
+    func ignputJoinPlayersName() -> String{
         print("참여할 사람 이름을 입력하세요.")
         guard let players = readLine() else{
             return "Error"
