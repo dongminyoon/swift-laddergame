@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import LadderGame
 
 class UnitTestLadderGame: XCTestCase {
     
